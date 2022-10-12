@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="w-9/12 mx-auto mt-16 p-5">
+    <div className="md:w-9/12 mx-auto mt-16 p-5">
       <h2 className="text-3xl font-bold my-3">
         What's the Purpase Of React Router ?
       </h2>
