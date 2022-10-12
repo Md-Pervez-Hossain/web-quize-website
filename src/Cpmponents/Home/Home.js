@@ -35,6 +35,9 @@ const Home = () => {
             <div className="bg-gray-200">
               <img src={info.logo} alt="" />
               <p className="text-3xl font-bold text-center py-5">{info.name}</p>
+              <p className="text-3xl font-bold text-center py-5">
+                Total Quize : {info.total}
+              </p>
             </div>
           </Link>
         ))}
