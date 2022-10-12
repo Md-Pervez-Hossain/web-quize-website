@@ -31,7 +31,7 @@ const Home = () => {
       </div>
       <div className="grid md:grid-cols-4 gap-5 mb-16">
         {info.data.map((info) => (
-          <Link to="/tutorials">
+          <Link to="/tutorials" key={info.id}>
             <div className="bg-gray-200">
               <img src={info.logo} alt="" />
               <p className="text-3xl font-bold text-center py-5">{info.name}</p>
