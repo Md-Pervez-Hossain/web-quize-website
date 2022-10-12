@@ -7,6 +7,7 @@ const TutorialsDetails = ({ tutorial }) => {
   const learnButtonHandler = (id) => {
     navigate(`${id}`);
   };
+
   return (
     <div className="bg-gray-200 shadow-2xl p-5 ">
       <img src={logo} alt="" />

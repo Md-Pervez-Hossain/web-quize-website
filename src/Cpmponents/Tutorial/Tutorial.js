@@ -6,7 +6,7 @@ const Tutorial = () => {
   const tutorials = useLoaderData();
   return (
     <div>
-      <div className="grid md:grid-cols-2 gap-10 w-9/12 mx-auto my-16">
+      <div className="grid grid-cols-2 gap-10 w-9/12 mx-auto my-16">
         {tutorials.data.map((tutorial) => (
           <TutorialsDetails
             key={tutorial.id}
