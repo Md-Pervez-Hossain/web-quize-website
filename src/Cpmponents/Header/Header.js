@@ -24,7 +24,7 @@ const Header = () => {
           )}
         </div>
         <div
-          className={`flex md:justify-end text-center duration-1000 ease-in-out mt-10 bg-white p-2 w-full left-0  absolute md:static items-center  flex-col  md:flex-row gap-6   ${
+          className={`flex md:justify-end text-center duration-1000 ease-in-out mt-10 md:mt-0 bg-white p-2 w-full md:w-9/12 left-0  absolute md:static items-center  flex-col  md:flex-row gap-6   ${
             open ? "top-32px" : "top-[-250px]"
           }`}
         >
